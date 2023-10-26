@@ -17,7 +17,7 @@ public class API_KEY_AUTH {
 		reqSpec.baseUri("https://api.openweathermap.org");
 		reqSpec.basePath("/data/2.5/weather");
 	//	https://api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
-		reqSpec.queryParam("q", "delhi").queryParam("appid", "edd1d98f7b118d9efc3bc1cfb72b0358");
+		reqSpec.queryParam("q", "delhi").queryParam("appid", "token");
 		Response response = reqSpec.get();
 		System.out.println("Statuse line:" +  response.getStatusLine());
 
