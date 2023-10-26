@@ -28,7 +28,7 @@ public class BearerToken {
 				payload.put("email", "Abhishek@gmail.com");
 				payload.put("status", "Active");
 
-				String AuthToken = "Bearer b2bf4c85c4626c1ce94c379667b46866e5830d826b60de10914eaab6ce8f7209";
+				String AuthToken = "Bearer token";
 				
 				reqSpec.header("Authorization", AuthToken).
 				contentType(ContentType.JSON).
